@@ -1,0 +1,36 @@
+$B$Ucsv.SetMode(self)$0
+Allows the user to set the evaluation mode of the CSV file.
+
+$BSeparator$0:
+	Changes separator (default: ${,$}) ; Cannot be set to ${;$} if ${EndOfRowIsSemiColomn$} is set to ${True$}.
+
+$BHintTag$0:
+	Specifies the hint tag (default: ${%$}).
+
+$BDirective$0:
+	Directive that can be used inside a CSV (default: ${#$}).
+
+$BEvalMod$0:
+	Specifies operation mode, if 1: Standard, if 2: Line-per-line (French).
+
+$BIgnoreWhiteSpaces$0:
+	Sets the evaluation mode for white spaces (spaces and tabs) (default: ${True$}).
+
+$BIgnoreSpaces$0:
+	sets the evaluation mode for spaces (default: ${True$}).
+
+$BIgnoreTabs$0:
+	sets the evaluation mode for tabulations (default: ${True$}).
+
+$BEndOfRowIsSemiColomn$0:
+	Sets the EOL rule, true: must end with a semi-colomn ; false: EOL only (default: ${False$});
+	if true this option can't be used with the separator set to ${;$}.
+
+$BAllQuoted$0:
+	If ${True$} all values must be surrounded by ${"$} or ${'$}.
+
+$BQuoteTextOnly$0:
+	If ${True$} values surrounded by ${"$} or ${'$} are considered as strings.
+	$n: if a is not recognisable by CSV and not surrounded by ${"$} or ${'$} CSV
+	        CSV will throw an $Eerror$0.
+	$n: conflict with ${AllQuoted$} if is set to ${True$}.

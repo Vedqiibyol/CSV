@@ -1,0 +1,2 @@
+$B$Ucsv.__del__(self)$0
+Destructor, close file if open.

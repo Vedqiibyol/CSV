@@ -1,0 +1,5 @@
+$B$Ucsv.SetFile(self, FilePath: str)$0
+Opens a file, or change the file to operate on.
+
+$BFilePath$0:
+	If ${FilePath$} is null, ${csv.SetFile()$} will return ${None$}.

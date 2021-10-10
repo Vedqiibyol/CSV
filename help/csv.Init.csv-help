@@ -1,0 +1,7 @@
+$B$Ucsv.Init(self)$0
+Initialise the CSV, ${csv.Init()$} can be call multiple time, if updates were made to the file.
+
+${csv.Init()$} checks the file for:
+	- Directives (default directive is ${#$}).
+	- HintTag (default hint tag is ${%$}).
+	- Length of the table.

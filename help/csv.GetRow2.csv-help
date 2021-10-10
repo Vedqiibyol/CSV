@@ -1,0 +1,6 @@
+$B$Ucsv.GetRow2(self, Row: int)$0
+Returns the given row.
+
+$BRow$0:
+	Row the function will return.
+	CSV will return an $Eerror$0 if the specified row does not exist

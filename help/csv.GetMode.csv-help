@@ -1,0 +1,17 @@
+$B$Ucsv.GetMode(self)$0
+Prints out the current mode applied to the object
+
+$BDefaults$0 are:
+	$[ Separator            = ','   $]    Separator between values
+	$[ HintTag              = '%'   $]    Hint Tag use to precise the table hinting.
+	$[ Directive            = '#'   $]    Directive that can be used to specify behaviour in the CSV file.
+	$[ EvalMod              = 1     $]    1: Standard ; 2: Line-per-line (French).
+	$[ IgnoreWhiteSpaces    = True  $]    If ${True$} White spaces (space and tabs) are not counted as part of any values.
+	$[ IgnoreSpaces         = True  $]    If ${True$} spaces are not counted as part of any values.
+	$[ IgnoreTabs           = True  $]    If ${True$} tabulations are not counted as part of any values.
+	$[ EndOfRowIsSemiColomn = False $]    If ${True$} a row/line must end by a ${;$}(can be used as comment).
+	$[ AllQuoted            = False $]    If ${True$} all values must be surrounded by ${"$} or ${'$}
+	$[ QuoteTextOnly        = True  $]    If ${True$} values surrounded by ${"$} or ${'$} are considered as strings.
+	                                  $n: if a is not recognisable by CSV and not surrounded by ${"$} or ${'$} CSV
+	                                          CSV will throw an $Eerror$0.
+	                                  $n: conflict with ${AllQuoted$} if is set to ${True$}.

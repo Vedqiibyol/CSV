@@ -1,0 +1,3 @@
+$B$Ucsv.GetCol(self)$0
+Returns the current pointed column of the table and increment the pointer to the next one.
+If the pointer points the last one, then the pointer will point back to the beggining.

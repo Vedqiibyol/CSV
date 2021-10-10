@@ -1,0 +1,6 @@
+$B$Ucsv.GetCol2(self, Col: int)$0
+Returns the given column.
+
+$BCol$0:
+	Column the function will return.
+	CSV will return an $Eerror$0 if the specified column does not exist

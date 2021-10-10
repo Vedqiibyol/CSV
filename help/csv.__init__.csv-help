@@ -1,0 +1,6 @@
+$B$Ucsv.__init__(self, FilePath='')$0
+Constructor.
+
+$BFilePath$0:
+	Precise the path to the CSV file you want to operate on.
+	If file extension is not $[.csv$], CSV will print out a $Wwarning$0 message.

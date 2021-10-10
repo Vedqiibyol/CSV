@@ -1,0 +1,19 @@
+$B$Ucsv.GetArrayAt(self, RowStart: int, ColStart: int, RowEnd: int, ColEnd: int)$0
+Returns the table starting from the cel at $[RowStart$]x$[ColStart$] to $[RowEnd$]x$[ColEnd$].
+
+$BRowStart$0:
+	Integer hinting the row coordinate (X) the table starts at.
+	CSV will return an $Eerror$0 if the index points outside of the table.
+
+$BColStart$0:
+	Integer hinting the column coordinate (Y) the table starts at.
+	CSV will return an $Eerror$0 if the index points outside of the table.
+
+$BRowEnd$0:
+	Integer hinting the row coordinate (X) where the table will ends.
+	CSV will return an $Eerror$0 if the index points outside of the table.
+
+$BColEnd$0:
+	Integer hinting the column coordinate (Y) where the table will ends.
+	CSV will return an $Eerror$0 if the index points outside of the table.
+

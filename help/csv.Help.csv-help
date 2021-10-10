@@ -1,0 +1,21 @@
+$B$Ucsv.Help(Func='')$0
+Open a manual similar to this current one
+
+$BFunc$0:
+	Function help targeted.
+	Function name can be:
+	$[ __init__        $]
+	$[ __del__         $]
+	$[ SetMode         $]
+	$[ GetMode         $]
+	$[ GetRow          $]
+	$[ GetRow2         $]
+	$[ GetCol          $]
+	$[ GetCol2         $]
+	$[ GetArray        $]
+	$[ GetArrayAt      $]
+	$[ GetRowHint      $]
+	$[ GetColHint      $]
+	$[ GetAmountOfRows $]
+	$[ GetAmountOfCols $]
+	$[ Help            $]
